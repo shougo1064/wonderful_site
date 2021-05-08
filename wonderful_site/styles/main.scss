@@ -1,0 +1,64 @@
+.w_code_head {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .w_code_frame {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+
+    .w_code_registration_box {
+      background-color: white;
+      border: solid 6px black;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 700px;
+      text-align: center;
+      padding: 2em;
+      margin: 2em auto 2em;
+
+      .regi_header {
+        color: black;
+        font-size: 48px;
+        margin: 0;
+      }
+      .regi_header_yomi {
+        position: relative;
+        top: -10px;
+      }
+      .regi_text1 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+      }
+      .regi_text2_box {
+        .regi_text2 {
+          font-size: 2.3em;
+          font-weight: bold;
+          background: linear-gradient(180deg,white 0%,white 50%,yellow 50%,yellow 100%);
+        }
+
+      }
+      .regi_text3 {
+        background-color: rgb(30, 173, 230);
+        display: block;
+        margin: 1em auto;
+        max-width: 600px;
+        width: 100%;
+        padding: 1.5em 1em;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+
+      }
+    }
+    .regi_text4 {
+      margin-top: 2em;
+    }
+  }
+}
