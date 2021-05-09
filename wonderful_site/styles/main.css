@@ -72,4 +72,23 @@
 .w_code_head .w_code_frame .regi_text4 {
   margin-top: 2em;
 }
+
+.w_code_attention {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 140px 0 3em;
+}
+
+.w_code_attention .w_code_attention_box .w_code_attention_text {
+  height: 1.3em;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.w_code_attention .w_code_attention_box .w_code_attention_text2 {
+  border-top: solid 2px white;
+  display: inline-block;
+  padding-top: 1em;
+}
 /*# sourceMappingURL=main.css.map */
