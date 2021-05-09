@@ -65,11 +65,11 @@
 
 .w_code_attention {
   background-color: black;
-  color: white;
-  text-align: center;
   padding: 140px 0 3em;
 
   .w_code_attention_box {
+    color: white;
+    text-align: center;
 
     .w_code_attention_text {
       height: 1.3em;
@@ -80,6 +80,7 @@
       border-top: solid 2px white;
       display: inline-block;
       padding-top: 1em;
+      margin: 0;
     }
   }
 }
